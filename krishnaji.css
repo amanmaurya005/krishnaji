@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    background-color: cadetblue;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 38px;
+    padding-right: 38px;
+    height: 90px;
+    color: darkgreen;
+
+
+}
+.header ul
+{
+    display: flex;
+    list-style: none;
+
+}
+.header ul a{
+    text-decoration: none;
+    padding: 0 8px;
+    margin: 0 8px;
+    color: darkgreen;
+}
+.mid img
+{
+    width: 1600px;
+    height: 600px;
+}
+.mid2
+{
+    color: tomato;
+    background-color: slategray;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.footer
+{
+    background-color: bisque;
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
